@@ -12,15 +12,6 @@
         <%= f.label :email %>
         <%= f.email_field :email %>
 
-        <label>Gender</label>
-
-        <div class="radio">
-          <label> <%= f.radio_button :gender, "male", :checked => true %> Male</label><br>
-          <label> <%= f.radio_button :gender, "female" %> Female</label>
-        </div>
-
-        <label>Birth</label>
-          <%= f.date_select :birth, :start_year => 1970 %>
         <%= f.label :password %>
         <%= f.password_field :password %>
 
